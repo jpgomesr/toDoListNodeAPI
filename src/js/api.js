@@ -19,7 +19,7 @@ app.post("/add_task", (req, res) => {
          titulo: title,
       });
 
-      res.status(200).json({
+      res.status(201).json({
          message: "Tarefa adicionada com sucesso!",
       });
    } catch (error) {
